@@ -3,74 +3,74 @@ let articles = [
         name: 'Bakes | Poulet',
         price: 8.00 + ' €',
         description: 'Bakes + salade de carotte, papay et conconcombre ',
-        img: "/images/img/amusebouche-.jpg"
+        img: "/images/img/bakes-poulet-salade.jpg"
     },
     {
         name: 'Bakes | Morrue',
         price: 12.00 + ' €',
         description: 'Bakes + salade de carotte, papay et conconcombre ',
-        img: "/images/img/amusebouche-.jpg"
+        img: "/images/img/bakes-salade.jpg"
     },
     {
         name: 'Bakes | Hareng',
         price: 12.00 + ' €',
         description: 'Bakes + salade de carotte, papay et conconcombre ',
-        img: "/images/img/amusebouche-.jpg"
+        img: "/images/img/bakes-salade.jpg"
     },
 
     {
         name: 'Souse',
         price: 8.00 + ' €',
         description: 'Porc + salade de concombre + hot sauce',
-        img: "/images/img/acras-.jpg"
+        img: "/images/img/saouse.jpg"
     },
     {
         name: 'Amuses Bouches x20',
         price: 15.00 + ' €',
         description: 'Poulet, hareng, morrue',
-        img: "/images/img/amusebouche-.jpg"
+        img: "/images/img/amusebouche.jpg"
     },
     {
         name: 'Acras x5',
         price: 2.00 + ' €',
         description: 'Morrue, ciboulette , piment végétarien',
-        img: "/images/img/acras-.jpg"
+        img: "/images/img/acras.jpg"
     },
     {
         name: 'Gingembre-curcuma',
         price: 2.50 + ' €',
         description: 'Gingembre curcuma',
-        img: "/images/img/jus1-.jpg"
+        img: "/images/img/jus1.jpg"
     },
     {
         name: 'Jus de scosh',
         price: 2.50 + ' €',
         description: "A base d'essence de banane et de citron  ",
-        img: "/images/img/jus3-.jpg"
+        img: "/images/img/jus3.jpg"
     },
     {
         name: 'Seamoss',
         price: 5.00 + ' €',
         description: "Algue des mers  roduits laitiers ",
-        img: "/images/img/jus3-.jpg"
+        img: "/images/img/jus-seamoss.jpg"
     },
     {
         name: 'Jus de citronelle',
         price: 2.50 + ' €',
         description: "Jus de citronelle ",
-        img: "/images/img/jus-seamoss.-jpg"
+        img: "/images/img/jusCitron.jpg"
     },
     {
         name: 'Mauby',
         price: 2.50 + ' €',
         description: "Thé glacé bosé ",
-        img: "/images/img/jus3-.jpg"
+        img: "/images/img/jus3.jpg"
     },
     {
-        name: 'Ice Lolly Coco & cacahuète',
+        name: 'Ice Lolly ',
         price: 2.00 + ' €',
-        description: "Déssert glacé ",
-        img: "/images/img/icelolly-.jpg"
+        description: "Déssert glacé Coco & cacahuète ",
+        img: "/images/img/icelolly2.jpg"
     },
 ];
 
@@ -96,7 +96,7 @@ for (let index = 0; index < articles.length; index++) {
     newCard.appendChild(cardImg);
     newCard.appendChild(cardPrice);
     newCard.appendChild(cardDescription);
-    newCard.className = 'card';
+    newCard.className = 'cards';
     cardHolder.appendChild(newCard);
 
 

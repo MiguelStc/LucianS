@@ -4,38 +4,46 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    background-color: #f0f8ff;
+    border: 1px solid #e9eaeb;
 
 }
 
-.card {
+.cards {
 
-    height: 25rem;
+    height: 30rem;
     width: 25rem;
     flex-direction: column;
     padding: 2rem;
     margin: 1rem;
+    border-bottom: 2px solid #e9eaeb;
+    transition: 0.3s;
 
 
 }
 
-.card:hover {
+.cards:hover {
     transition: 0.4s;
     scale: 1.05;
     cursor: pointer;
     box-shadow: inset;
+    border: 2px solid #e9eaeb;
+    border-radius: 5px;
 }
 
-.card h3 {
+.cards h3 {
     color: rgb(75, 75, 75);
 }
 
-.card p {
+.cards p {
     width: 100%;
 }
 
-.card img {
-    height: 50%;
-
+.cards img {
+    height: 55%;
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 
 .inlineNumber {
